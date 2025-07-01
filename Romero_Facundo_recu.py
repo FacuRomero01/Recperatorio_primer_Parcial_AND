@@ -1,6 +1,6 @@
 # Defino la función
 
-def temperatura_media_ubral(temperaturas:list, umbral:int) -> bool:
+def temperatura_media_alta(temperaturas:list, umbral:int) -> bool:
     """
     Función que calcula el promedio de una lista de temperaturas en grados y 
     compara si es mayor o menor al umbral dado.
