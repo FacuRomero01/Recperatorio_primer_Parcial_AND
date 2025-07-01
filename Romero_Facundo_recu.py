@@ -12,7 +12,7 @@ def temperatura_media_alta(temperaturas:list, umbral:int) -> bool:
     
     Return:
 
-        Res (Bool): Valor booleano de la comparación de promedio y umbral, True si el promedio es mayor al umbral y False si es menor.
+        Bool: Valor booleano de la comparación de promedio y umbral, True si el promedio es mayor al umbral y False si es menor.
     """
     promedio_temp = sum(temperaturas) / len(temperaturas) # Calcula promedio
     
