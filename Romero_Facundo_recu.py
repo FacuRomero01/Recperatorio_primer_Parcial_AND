@@ -31,4 +31,4 @@ temperaturas = [18,22,25,20,21]
 umbral = 20
 
 # Invoco a la función.
-print(temperatura_media_ubral(temperaturas,umbral))
+print(temperatura_media_alta(temperaturas,umbral))
